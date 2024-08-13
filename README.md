@@ -1,4 +1,4 @@
-# template.pagi
+# template
 Ikuti Tutroial ini , 
 Klik titik 3 vertikal pada Instagram, 
 Lalu pilih Chrome (Tersetting dalam Chrome), 
