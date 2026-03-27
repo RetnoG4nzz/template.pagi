@@ -20,12 +20,14 @@
     <link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
     <meta name="description" content="HTML Bucin Malas.id">
     <!-- 
-  Made with love by Peltod Raja Iblis
+  Introduce .
   
-     Instagram: @_nptzy
-     TikTok: @sedang.turu2
-     Email: nyotoprayitno53@gmail.com or retnoa652@gmail.com
-     
+     Instagram: peltod.co.ltd
+     Facebook : sedang turu
+     Messages : i don't know why i in here, I just remember when the R-73 Vympel targeted me with its IR feature .
+    before I maneuvered and hit my left side and I didn't have time to press the flare or 
+    press the button to launch AIM 120 AMRAAM to reply.
+   
   Thanks to all <3
 -->
 </head>
@@ -109,15 +111,15 @@
         document.getElementById("kadoIn").onclick = function () { if (fungsiAwal == 0) { audio.play(); fungsiAwal = 1; kadoIn.style = "transition:all .8s ease;transform:scale(10);opacity:0"; wallpaper.style = "transform: scale(1.5);"; ket.style = "display:none"; setTimeout(initengahan, 300); setTimeout(inipesan, 500) } }
 
         async function inipesan() {
-            var { value:winda } = await swals.fire({
+            var { value:name } = await swals.fire({
                 title: 'Masukin Nama Kamu', input: 'text',
             });
-            if (winda && winda.length < 11) {
-                window.nama = winda;
-                vketikhalo = "Hai, " + winda + " ✨";
+            if (name && name.length < 11) {
+                window.nama = name;
+                vketikhalo = "Hai, " + name + " ✨";
                 mulainama();
             } else {
-                await swals.fire('Ups!', 'winda'); inipesan();
+                await swals.fire('Ups!', 'name'); inipesan();
             }
         }
 
@@ -127,7 +129,7 @@
         var tompositif = 'Mau';
         var tomnegatif = 'Engga';
 
-        async function menuju() { pesanwhatsapp = "Makasii udah ngucapin " + winda + " ultah ><"; await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success'); window.location = "https://wa.me/qr/PDNOH264E3XRJ1" + pesanwhatsapp; }
+        async function menuju() { pesanwhatsapp = "Makasii udah ngucapin " + name + " ultah ><"; await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success'); window.location = "https://wa.me/qr/PDNOH264E3XRJ1" + pesanwhatsapp; }
     //Script diupload disini-->
     </script>
     <script src="https://malasid.github.io/html/hbd.js"></script>
